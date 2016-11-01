@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.body {
+  background-image: url('./img/main-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#your {
+  color: #fff;
+  font-size: 90px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#personal-portfolio {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .minimized {
+    display: none;
+  }
+}
+
+.minimized {
+  height: 35px;
+  width: 100vw;
+}
+
+#ham {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+}
+
+#twitter {
+  height: 30px;
+  width: 40px;
+  margin-top: 15px;
+  float: right;
+  margin-right: 20px;
+}
+
+#facebook {
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  float: right;
+  margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#circle {
+  height: 35px;
+  width: 35px;
+  margin-bottom: 35px;
+}
